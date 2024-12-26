@@ -1,0 +1,18 @@
+@keyframes gradientShadowAnimation {
+    0% {
+      transform: translateY(6px);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translateY(12px);
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(6px);
+      opacity: 0.8;
+    }
+  }
+
+  .animate-shadow {
+    animation: gradientShadowAnimation 3s infinite alternate;
+  }
